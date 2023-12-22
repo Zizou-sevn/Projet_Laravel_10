@@ -1,11 +1,11 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Acceuil</title>
-</head>
-<body>
-    <h1>Hello Laravel</h1>
-</body>
-</html>
+@extends('base')
+@section('title', 'Accueil')
+@section('content')
+<h1>hi</h1>
+
+<ul>
+    @foreach ($actus as $actu)
+        <li>{{ $actu->contenu}} {{$actu->date_publication}}</li>
+    @endforeach
+</ul>
+@endsection
