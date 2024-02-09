@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=, initial-scale=1.0">
@@ -10,16 +11,18 @@
     <header>
         <div>
             <nav>
-                <a href="{{ route('main.home')}}">Accueil</a>
-                <a href="{{ route('main.menu')}}">Menu</a>
-                <a href="/reservation">Reservation</a>
-                <a href="/contact">Contact</a>
+                <ul>
+                    <li><a href="{{ route('main.home')}}">Accueil</a></li>
+                    <li><a href="{{ route('main.menu')}}">Menu</a></li>
+                    <li><a href="{{ route('main.reservation')}}">Reservation</a></li>     
+                </ul>
             </nav>
         </div>
     </header>
     @yield('content')
     <footer>
-        <!-- TODO -->
+    
     </footer>
 </body>
+
 </html>

@@ -20,7 +20,7 @@ return new class extends Migration
             $table->time('heure');
             $table->date('jour');
             $table->string('telephone');
-            $table->text('commentaire');
+            $table->text('commentaire')->nullable();
             $table->timestamps();
         });
     }

@@ -1,108 +1,31 @@
-<!DOCTYPE html>
-<html lang="fr">
+@extends ('base')
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>O Cnamo</title>
-    @vite(['resources/css/app.css', 'resources/js/app.js'])
-
-</head>
-
-<body>  
-    <header>
-        
-    </header>
+@section ('content')
 
 
-    <section>
-        <div>
+        <section>
             <h2>Menu</h2>
-        </div>
-                <h3>Petit déjeuner</h3>
-                <ul class="plats"> 
-                    <li>
-                        <img src="/images/Photo-Dessert.jpg" alt="verdura-e-carne-sulla-ciotola"> 
-                        <h4>Lorem ipsum dolor</h4>
-                        <span class="prix">9,99 €</span>
-                    </li>
-                    <li>
-                        <img src="/images/Photo-Dessert.jpg" alt="verdura-e-carne-sulla-ciotola"> 
-                        <h4>Lorem ipsum dolor</h4>
-                        <span class="prix">9,99 €</span>
-                    </li>
-                </ul>
+            @foreach ($categories as $categorie)
                 <div>
-                    <h3>Entrée</h3>
-                    <ul class="plats"> 
-                        <li>
-                            <img src="/images/Photo-Dessert.jpg" alt="verdura-e-carne-sulla-ciotola"> 
-                            <h4>Lorem ipsum dolor</h4>
-                            <span class="prix">9,99 €</span>
-                        </li>
-                        <li>
-                            <img src="/images/Photo-Dessert.jpg" alt="verdura-e-carne-sulla-ciotola"> 
-                            <h4>Lorem ipsum dolor</h4>
-                            <span class="prix">9,99 €</span>
-                        </li>
-                    </ul>
-                 </div>
-
-                 <div>
-                        <h3>Plat principal</h3>
-                        <ul class="plats"> 
+                    <h3>{{ $categorie->nom}} </h3>
+                    <ul class="plats">
+                        @foreach ($categorie->plats() as $plat)
                             <li>
-                                <img src="/images/Photo-Dessert.jpg" alt="verdura-e-carne-sulla-ciotola"> 
-                                <h4>Lorem ipsum dolor</h4>
-                                <span class="prix">9,99 €</span>
-                            </li>
-                            <li>
-                                <img src="/images/Photo-Dessert.jpg" alt="verdura-e-carne-sulla-ciotola"> 
-                                <h4>Lorem ipsum dolor</h4>
-                                <span class="prix">9,99 €</span>
-                            </li>
-                        </ul>
-                  </div>
-
-                  <div>
-                            <h3>Dessert</h3>
-                            <ul class="plats"> 
-                                <li>
-                                    <img src="/images/Photo-Dessert.jpg" alt="verdura-e-carne-sulla-ciotola"> 
-                                    <h4>Lorem ipsum dolor</h4>
-                                    <span class="prix">9,99 €</span>
-                                </li>
-                                <li>
-                                    <img src="/images/Photo-Dessert.jpg" alt="verdura-e-carne-sulla-ciotola"> 
-                                    <h4>Lorem ipsum dolor</h4>
-                                    <span class="prix">9,99 €</span>
-                                </li>
-                            </ul>
-                        </div>
-
-                        <div>
-                                <h3>Boisson</h3>
-                                <ul class="plats"> 
-                                    <li>
-                                        <img src="/images/Photo-Dessert.jpg" alt="verdura-e-carne-sulla-ciotola"> 
-                                        <h4>Lorem ipsum dolor</h4>
-                                        <span class="prix">9,99 €</span>
-                                    </li>
-                                    <li>
-                                        <img src="/images/Photo-Dessert.jpg" alt="verdura-e-carne-sulla-ciotola"> 
-                                        <h4>Lorem ipsum dolor</h4>
-                                        <span class="prix">9,99 €</span>
-                                    </li>
+                                <a href="{{ route('main.plat', ['id' => $plat->id]) }}">
+                                <img src="{{ asset('images/'.$plat->fichier) }} " alt="{{ $plat->nom }}"><a href=""></a>
+                                <a href="{{ route('main.plat', ['id' => $plat->id]) }}">
+                                <h4>{{ $plat->nom }}</h4>
+                                <span class="prix">{{ $plat->prix }}</span>
+                                <ul>
+                                    @foreach ($plat->etiquettes() as $etiquette)
+                                    <li>{{ $etiquette->nom }}</li>
+                                    @endforeach
                                 </ul>
-                        </div>
+                            </li>
+                        @endforeach
 
-    </section>
-
-
-    <Footer>
-        <!--TOODO-->
-    </Footer>
-
-</body>
-
-</html>
+                    </ul>
+                </div>
+            @endforeach
+        </section>
+@endsection
