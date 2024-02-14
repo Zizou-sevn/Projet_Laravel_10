@@ -1,15 +1,373 @@
-.plats {
-    display: flex;
-    list-style: none;
+/* Caligraphie du "title-big" */
+
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Great+Vibes&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Great+Vibes&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Great+Vibes&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap");
+
+/* Body */
+
+body {
     margin: 0;
-    padding: 0;
+    overflow-y: scroll;
+    background-color: #e1e1e1;
 }
 
-.plats img {
-width: 150px;
-height: 150px;
+.font {
+    background-color: black;
 }
 
+.barre {
+    background-image: url(/Images/Photo-Restaurant.jpg);
+    background-size: cover;
+    height: 700px;
+    padding: 20px;
+    background-repeat: no-repeat;
+    padding: 50px;
+}
 
+#id_1 {
+    padding: 20px 0 20px 50px;
+    margin: 0;
+}
 
+.title-big a {
+    color: #e1e1e1;
+    font-family: "Great Vibes", cursive;
+    font-size: 2em;
+    text-decoration: none;
+    font-weight: 900;
+    padding-left: 60px;
+}
 
+* {
+    list-style: none;
+    text-decoration: none;
+}
+
+.barre_2 .sous-barre {
+    /* background-color: #f7e7cf; */
+    /* border-radius: 50px; */
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+    height: 50px;
+    align-items: center;
+    position: absolute;
+    top: 20px;
+    right: 100px;
+    padding: 0 30px;
+}
+
+.sous-barre {
+    filter: drop-shadow(16px 16px 10px rgba(0, 0, 0, 0.726));
+    align-items: center;
+}
+
+.barre_2 li a {
+    color: #e1e1e1;
+    font-size: 1.2em;
+    font-weight: 200;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+.sous-barre li a:hover {
+    color: rgba(142, 142, 142, 0.605);
+    border-radius: 11px;
+}
+
+/* Second Cycle  */
+
+.ma_bite {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    margin: 0;
+}
+
+.barre_3 {
+    width: 50%;
+    height: 400px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.barre_4 {
+    background-image: url(/Images/Photo\ plat.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 50%;
+}
+
+.barre_20 {
+    background-image: url(/Images/Paris-photos-menu.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 50%;
+}
+
+.barre_21 {
+    width: 50%;
+    height: 400px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.barre_24 {
+    width: 50%;
+    height: 400px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.barre_23 {
+    background-image: url(/Images/unsplash_restaurant.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 50%;
+}
+
+.title_2 {
+    font-size: 3em;
+    margin: 2px;
+    font-family: sans-serif;
+    font-weight: 700;
+}
+
+#id_20 {
+    margin-bottom: 50px;
+}
+
+.title_3 {
+    font-size: 2em;
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 200;
+    margin: 20px 0;
+    padding: 0 10px;
+}
+
+.para {
+    font-size: 1.3em;
+    font-family: "Fira sans", sans-serif;
+    font-weight: 100;
+    padding: 0 100px;
+}
+
+.button_1 {
+    padding: 10px 50px 10px 50px;
+    font-size: 1.2em;
+    border: solid;
+    color: black;
+    background-color: #e1e1e1;
+    border-radius: 20px;
+    font-family: "Libre Baskerville", serif;
+}
+
+.button_1:hover {
+    background-color: #000000;
+    color: white;
+    border-color: #e1e1e1;
+    text-decoration: none;
+}
+
+/* footer cycle */
+
+.barre_25 {
+    height: 100%;
+    margin: 0;
+    background-color: #000000;
+    border-radius: 20px;
+    padding: 30px 0 0;
+    margin: 20px 0 5px;
+}
+
+.barre_27 {
+    color: #e1e1e1;
+}
+
+.sous-barre_2 {
+    display: flex;
+    justify-content: space-around;
+    font-weight: 600;
+    font-size: 1.4em;
+}
+
+.sous-barre_3 {
+    display: flex;
+    margin: 0;
+    font-weight: 100;
+    font-family: sans-serif;
+}
+
+.sous-barre_2 li {
+    color: #e1e1e1;
+    font-family: sans-serif;
+}
+
+.sous-barre_4 {
+    position: relative;
+    justify-content: space-around;
+    margin: 0 auto;
+    text-align: center;
+    left: 10px;
+}
+
+.sous-barre_5 {
+    position: relative;
+    justify-content: space-around;
+    margin: 0 auto;
+    left: 35px;
+}
+
+.sous-barre_6 {
+    position: relative;
+    justify-content: space-around;
+    margin: 0 auto;
+    text-align: center;
+    right: 7px;
+}
+
+.brun {
+    padding: 10px;
+}
+
+.brun_2 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.brun_3 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.icone_1 {
+    position: relative;
+    background-image: url(/Images/Mail\ Logo.jpeg);
+    background-size: cover;
+    border-radius: 50px;
+    height: 25px;
+    width: 25px;
+    margin-right: 15px;
+    margin-top: 1.8px;
+}
+
+.icone_2 {
+    position: relative;
+    background-image: url(/Images/Appel\ LOgo.jpeg);
+    background-size: cover;
+    border-radius: 50px;
+    height: 25px;
+    width: 25px;
+    margin-right: 15px;
+    margin-top: 1.8px;
+}
+
+.trait {
+    background-image: url(/Images/Footer-trait.jpg);
+    background-size: cover;
+    height: 1px;
+    position: relative;
+    margin: 20px 45px 0;
+}
+
+.barre_28 {
+    display: flex;
+    margin: 20px 10px 0;
+    padding: 20px;
+    width: 440px;
+}
+
+.barre_29 {
+    display: flex;
+    margin: 20px 10px 0;
+    padding: 20px;
+    width: 500px;
+    padding-left: 200px;
+}
+
+.barre_30 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.para_3 {
+    color: #e1e1e1;
+    font-weight: 100;
+    font-size: 1em;
+    width: 300px;
+    padding-left: 5px;
+}
+
+.icone_3 {
+    background-image: url(/Images/Copyright\ Logo_1.png);
+    background-size: cover;
+    display: inline-block;
+    border-radius: 50px;
+    height: 15px;
+    width: 15px;
+    position: relative;
+    top: 17px;
+}
+
+.sous-barre_7 {
+    display: flex;
+    left: 780px;
+}
+
+.li_2 {
+    background-image: url(/Images/Facebook\ logo.jpeg);
+    background-size: cover;
+    border-radius: 50%;
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    margin: 4px 2px 0;
+}
+
+.li_3 {
+    background-image: url(/Images/Instagram\ Logo.jpeg);
+    background-size: cover;
+    border-radius: 50%;
+    display: inline-block;
+    height: 31px;
+    width: 31px;
+    margin: 0 5px 2px;
+}
+
+.li_4 {
+    background-image: url(/Images/TikTok\ Logo.jpeg);
+    background-size: cover;
+    border-radius: 50%;
+    display: inline-block;
+    height: 28px;
+    width: 28px;
+    margin: 2px 5px 0;
+}
+
+.li_5 {
+    background-image: url(/Images/logo\ X\ Twiter.jpeg);
+    background-size: cover;
+    border-radius: 50%;
+    display: inline-block;
+    height: 28px;
+    width: 28px;
+    margin: 2px 3px 0;
+}
+
+.plats{
+    display: flex;
+    justify-content: space-between;
+}
+
+img {
+    width: 20%;
+    height: 20%;
+}
+
+.brun_du{
+    
+}

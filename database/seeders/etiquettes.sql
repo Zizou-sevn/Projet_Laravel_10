@@ -1,4 +1,4 @@
-insert into etiquettes (id, nom) values (1, 'neque');
+insert into etiquettes (id, nom) values (1, 'volutpat');
 insert into etiquettes (id, nom) values (2, 'id');
 insert into etiquettes (id, nom) values (3, 'id');
 insert into etiquettes (id, nom) values (4, 'in');

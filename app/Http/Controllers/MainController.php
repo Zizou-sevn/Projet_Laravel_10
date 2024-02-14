@@ -13,16 +13,16 @@ class MainController extends Controller
        private $heures = [
 
         //  creneau du matin
-        '12:00:00' => '12:00',
-        '12:30:00' => '12:30',
-        '13:00:00' => '13:00',
-        '13:30:00' => '13:30',
+        '12:00',
+        '12:30',
+        '13:00',
+        '13:30',
     
         //  creneaux du soir
-        '20:00:00' => '20:00',
-        '20:30:00' => '20:30',
-        '21:00:00' => '21:00',
-        '21:30:00' => '21:30',
+        '20:00',
+        '20:30',
+        '21:00',
+        '21:30',
     
         ];
     
@@ -87,17 +87,4 @@ class MainController extends Controller
         ]);
     }
 
-    // /admin/reservation
-    public function adminReservation()
-    {
-        //récup la liste des résa
-        // affiche un template
-    }
-
-    // /admin/reservation/{id}
-    public function adminReservationShow()
-    {
-        //recup la résa
-        // affiche un template
-    }
 }
