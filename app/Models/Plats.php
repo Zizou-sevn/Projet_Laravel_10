@@ -21,6 +21,6 @@ class Plats extends Model
 
     public function etiquettes()
     {
-        return $this->belongsToMany(Etiquettes::class, 'etiquettes_plats', 'etiquettes_id', 'plats_id')->get();
+        return $this->belongsToMany(Etiquettes::class, 'etiquettes_plats', 'plats_id', 'etiquettes_id',)->get();
     }
 }

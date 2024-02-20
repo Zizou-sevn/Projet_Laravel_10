@@ -4,30 +4,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=, initial-scale=1.0">
-    <title>{{config('app.name')}} - @yield('title')</title>
+    <title>{{ config('app.name') }} - @yield('title')</title>
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
+
 <body>
 
     <!-- Premier Cycle -->
 
-    <div class="font">
+    <div class="Barre">
         <h1 id="id_1" class="title-big"><a href={{ route('main.home') }}>O'Cnamo</a></h1>
 
-        <div class="barre_2">
+        <div class="barre_1">
 
-            <ul class="sous-barre">
+            <ul class="ul_1">
                 <li><a href={{ route('main.home') }}>Accueil</a></li>
                 <li><a href={{ route('main.menu') }}>Menu</a></li>
                 <li><a href={{ route('main.reservation') }}>Reservation</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href={{ route('main.contact') }}>Contact</a></li>
             </ul>
         </div>
     </div>
 
+    <!-- Premier Cycle -->
+
     @yield('content')
 
-    
+
+    <!-- footer  -->
 
     <footer class="barre_25">
         @section('footer')
@@ -44,12 +48,13 @@
 
                 <ul class="sous-barre_3">
                     <ul class="sous-barre_4">
-                        <li>5 Bd LouiXIV <br>59800 Lille</li>
+                        <li>5 Bd Louis XIV <br>59800 Lille</li>
                     </ul>
 
                     <ul class="sous-barre_5">
                         <li> <span class="brun">lundi - Vendredi</span> (12h-14h) à (19h-23h) <br>
-                            Samedi et Dimanche (12h-14h) à (19h-23h)</li>
+                            <span class="brun_4">Samedi et Dimanche</span>(12h-14h) à (19h-23h)
+                        </li>
                     </ul>
 
 
@@ -88,6 +93,9 @@
             </div>
         @show
     </footer>
+
+    <!-- footer  -->
+
 </body>
 
 </html>

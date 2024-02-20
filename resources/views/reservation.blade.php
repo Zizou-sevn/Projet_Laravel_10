@@ -50,7 +50,7 @@
                     <div>
                         <label class="form_1_3_1" for="heure"></label>
                         <select class="form_1_3" name="heure" id="heure" required>
-                            <option value=""></option>
+                            <option value="">Heure</option>
                             @foreach ($heures as $heure)
                                 <option value="{{ $heure }}" {{ old('heure') == $heure ? 'selected' : '' }}>
                                     {{ $heure }}</option>
@@ -71,9 +71,9 @@
                         @enderror
                     </div>
                     <div class="form_1_5_1">
-                        {{-- <label for="telephone">Numero de téléphone</label> --}}
+                        <label for="telephone"></label>
                         <input class="form_1_5" type="phone" name="telephone" id="telephone"
-                            value="{{ old('telephone') }}" placeholder="0663255876"required>
+                            value="{{ old('telephone') }}" placeholder="Ex: 0658743214"required>
                         @error('telephone')
                             <div class="invalid-feedback">{{ $message }}</div>
                         @enderror

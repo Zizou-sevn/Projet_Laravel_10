@@ -59,6 +59,12 @@ class MainController extends Controller
             'heures'=> $this ->heures, 
         ]);
     } 
+
+    public function contact()
+    {    
+        return view('contact'); 
+    }
+
     public function  reservationStore(Request $request)
     {
      $heures = implode (',', $this->heures);

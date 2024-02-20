@@ -6,9 +6,14 @@
 
     <!-- Premier Cycle -->
 
-    <div class="barre"></div>
+    <div class="barre_8000">
+        <div class="barre_4000">
+            <div><p class="para_1000"><span class="coo">Toko lia malamu</span></div>
+        </div>
+    </div>
 
-    <div class="ma_bite">
+
+    <div class="Grosse-barre">
 
         <div class="barre_4"></div>
         <div class="barre_3">
@@ -47,15 +52,14 @@
 
             <h2 class="title_2" id="id_2">Contact</h2>
 
-            {{-- <p class="title_3">Fait avec Amour</p> --}}
-
             <p class="para"><span class="p_1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate
                     eveniet quaerat repudiandae commodi vitae, nisi unde. Quo aliquid suscipit iste necessitatibus odit
                     facilis ex, non neque cupiditate quis vitae magni? Explorez nos entrées, plats et desserts. Alliant
                     nouveautés et
                     classiques.</span></p>
 
-            <button type="button" class="button_1"><a href="#"></a> <span class="menu">Contactez-nous</span></button>
+                    <a href="{{ route('main.contact') }}"><button type="button" class="button_1"> <span
+                    class="menu">Contactez-nous</span></button></a>
         </div>
     </div>
 

@@ -1,60 +1,39 @@
-insert into plats (id, nom, prix, description, fichier, created_at, updated_at, categories_id) values (1, 'sapien cursus vestibulum', 24, 'tortor duis mattis egestas metus aenean fermentum donec ut mauris', 'Photo_plat.jpg', null, null, 3);
-insert into plats (id, nom, prix, description, fichier, created_at, updated_at, categories_id) values (2, 'vivamus metus arcu', 4, 'magnis dis parturient montes nascetur ridiculus mus vivamus vestibulum sagittis sapien', 'Photo_plat.jpg', null, null, 5);
-insert into plats (id, nom, prix, description, fichier, created_at, updated_at, categories_id) values (3, 'consequat in consequat ut nulla', 21, 'habitasse platea dictumst aliquam augue quam sollicitudin vitae consectetuer eget rutrum', 'Photo_plat.jpg', null, null, 1);
-insert into plats (id, nom, prix, description, fichier, created_at, updated_at, categories_id) values (4, 'enim lorem ipsum', 36, 'rhoncus dui vel sem sed sagittis nam', 'Photo_plat.jpg', null, null, 4);
-insert into plats (id, nom, prix, description, fichier, created_at, updated_at, categories_id) values (5, 'ut erat curabitur', 40, null, 'Photo_plat.jpg', null, null, 4);
-insert into plats (id, nom, prix, description, fichier, created_at, updated_at, categories_id) values (6, 'mi sit amet lobortis', 3, null, 'Photo_plat.jpg', null, null, 5);
-insert into plats (id, nom, prix, description, fichier, created_at, updated_at, categories_id) values (7, 'ut nulla sed accumsan', 11, 'duis ac nibh fusce lacus purus aliquet at', 'Photo_plat.jpg', null, null, 5);
-insert into plats (id, nom, prix, description, fichier, created_at, updated_at, categories_id) values (8, 'posuere cubilia curae duis faucibus', 6, null, 'Photo_plat.jpg', null, null, 1);
-insert into plats (id, nom, prix, description, fichier, created_at, updated_at, categories_id) values (9, 'quisque erat eros', 28, 'sit amet nunc viverra dapibus nulla suscipit', 'Photo_plat.jpg', null, null, 4);
-insert into plats (id, nom, prix, description, fichier, created_at, updated_at, categories_id) values (10, 'nisl duis bibendum felis', 19, 'pellentesque quisque porta volutpat erat quisque erat eros viverra', 'Photo_plat.jpg', null, null, 2);
-insert into plats (id, nom, prix, description, fichier, created_at, updated_at, categories_id) values (11, 'ultrices posuere cubilia curae donec', 16, 'eu mi nulla ac enim in tempor turpis nec', 'Photo_plat.jpg', null, null, 1);
-insert into plats (id, nom, prix, description, fichier, created_at, updated_at, categories_id) values (12, 'gravida nisi at', 31, 'orci mauris lacinia sapien quis libero nullam sit amet turpis', 'Photo_plat.jpg', null, null, 2);
-insert into plats (id, nom, prix, description, fichier, created_at, updated_at, categories_id) values (13, 'ante vestibulum ante ipsum primis', 13, 'nonummy integer non velit donec diam neque vestibulum eget vulputate ut ultrices', 'Photo_plat.jpg', null, null, 4);
-insert into plats (id, nom, prix, description, fichier, created_at, updated_at, categories_id) values (14, 'amet diam in magna', 18, 'nam ultrices libero non mattis pulvinar nulla pede ullamcorper augue a', 'Photo_plat.jpg', null, null, 5);
-insert into plats (id, nom, prix, description, fichier, created_at, updated_at, categories_id) values (15, 'odio odio elementum eu interdum', 5, 'pede venenatis non sodales sed tincidunt eu', 'Photo_plat.jpg', null, null, 2);
-insert into plats (id, nom, prix, description, fichier, created_at, updated_at, categories_id) values (16, 'bibendum imperdiet nullam orci', 20, null, 'Photo_plat.jpg', null, null, 3);
-insert into plats (id, nom, prix, description, fichier, created_at, updated_at, categories_id) values (17, 'ipsum primis in faucibus orci', 16, null, 'Photo_plat.jpg', null, null, 4);
-insert into plats (id, nom, prix, description, fichier, created_at, updated_at, categories_id) values (18, 'eget rutrum at lorem integer', 18, null, 'Photo_plat.jpg', null, null, 2);
-insert into plats (id, nom, prix, description, fichier, created_at, updated_at, categories_id) values (19, 'sapien non mi integer ac', 27, 'in ante vestibulum ante ipsum primis in faucibus', 'Photo_plat.jpg', null, null, 5);
-insert into plats (id, nom, prix, description, fichier, created_at, updated_at, categories_id) values (20, 'at nunc commodo placerat', 29, null, 'Photo_plat.jpg', null, null, 1);
-insert into plats (id, nom, prix, description, fichier, created_at, updated_at, categories_id) values (21, 'on change ou un peu de francais bordel', 32, 'donec diam neque vestibulum eget vulputate ut ultrices', 'Photo_plat.jpg', null, null, 1);
-insert into plats (id, nom, prix, description, fichier, created_at, updated_at, categories_id) values (22, 'nullam orci pede venenatis non', 28, 'non sodales sed tincidunt eu felis fusce', 'Photo_plat.jpg', null, null, 1);
-insert into plats (id, nom, prix, description, fichier, created_at, updated_at, categories_id) values (23, 'vel accumsan tellus', 39, null, 'Photo_plat.jpg', null, null, 2);
-insert into plats (id, nom, prix, description, fichier, created_at, updated_at, categories_id) values (24, 'mollis molestie lorem quisque', 13, 'consequat nulla nisl nunc nisl duis bibendum felis', 'Photo_plat.jpg', null, null, 5);
-insert into plats (id, nom, prix, description, fichier, created_at, updated_at, categories_id) values (25, 'in est risus auctor sed', 21, null, 'Photo_plat.jpg', null, null, 5);
-insert into plats (id, nom, prix, description, fichier, created_at, updated_at, categories_id) values (26, 'dui luctus rutrum nulla', 10, null, 'Photo_plat.jpg', null, null, 1);
-insert into plats (id, nom, prix, description, fichier, created_at, updated_at, categories_id) values (27, 'elementum ligula vehicula consequat morbi', 32, 'ac nibh fusce lacus purus aliquet at feugiat non pretium quis lectus', 'Photo_plat.jpg', null, null, 4);
-insert into plats (id, nom, prix, description, fichier, created_at, updated_at, categories_id) values (28, 'convallis duis consequat dui', 13, 'orci mauris lacinia sapien quis libero nullam sit', 'Photo_plat.jpg', null, null, 2);
-insert into plats (id, nom, prix, description, fichier, created_at, updated_at, categories_id) values (29, 'cubilia curae nulla', 34, 'tempus vivamus in felis eu sapien cursus', 'Photo_plat.jpg', null, null, 3);
-insert into plats (id, nom, prix, description, fichier, created_at, updated_at, categories_id) values (30, 'nibh fusce lacus purus aliquet', 28, 'sed interdum venenatis turpis enim blandit mi in porttitor pede justo', 'Photo_plat.jpg', null, null, 5);
-insert into plats (id, nom, prix, description, fichier, created_at, updated_at, categories_id) values (31, 'porttitor lacus at turpis donec', 37, null, 'Photo_plat.jpg', null, null, 5);
-insert into plats (id, nom, prix, description, fichier, created_at, updated_at, categories_id) values (32, 'orci pede venenatis non', 39, null, 'Photo_plat.jpg', null, null, 1);
-insert into plats (id, nom, prix, description, fichier, created_at, updated_at, categories_id) values (33, 'odio odio elementum', 28, 'arcu adipiscing molestie hendrerit at vulputate vitae nisl aenean lectus pellentesque', 'Photo_plat.jpg', null, null, 1);
-insert into plats (id, nom, prix, description, fichier, created_at, updated_at, categories_id) values (34, 'in faucibus orci luctus', 39, null, 'Photo_plat.jpg', null, null, 5);
-insert into plats (id, nom, prix, description, fichier, created_at, updated_at, categories_id) values (35, 'faucibus orci luctus et', 22, null, 'Photo_plat.jpg', null, null, 4);
-insert into plats (id, nom, prix, description, fichier, created_at, updated_at, categories_id) values (36, 'erat volutpat in', 30, null, 'Photo_plat.jpg', null, null, 1);
-insert into plats (id, nom, prix, description, fichier, created_at, updated_at, categories_id) values (37, 'congue elementum in', 19, 'aenean fermentum donec ut mauris eget massa tempor convallis', 'Photo_plat.jpg', null, null, 4);
-insert into plats (id, nom, prix, description, fichier, created_at, updated_at, categories_id) values (38, 'morbi non lectus', 32, null, 'Photo_plat.jpg', null, null, 1);
-insert into plats (id, nom, prix, description, fichier, created_at, updated_at, categories_id) values (39, 'potenti nullam porttitor lacus at', 23, 'a nibh in quis justo maecenas rhoncus aliquam lacus', 'Photo_plat.jpg', null, null, 4);
-insert into plats (id, nom, prix, description, fichier, created_at, updated_at, categories_id) values (40, 'feugiat et eros vestibulum ac', 19, null, 'Photo_plat.jpg', null, null, 4);
-insert into plats (id, nom, prix, description, fichier, created_at, updated_at, categories_id) values (41, 'quisque arcu libero rutrum ac', 11, 'vulputate ut ultrices vel augue vestibulum ante', 'Photo_plat.jpg', null, null, 2);
-insert into plats (id, nom, prix, description, fichier, created_at, updated_at, categories_id) values (42, 'aenean lectus pellentesque', 4, null, 'Photo_plat.jpg', null, null, 5);
-insert into plats (id, nom, prix, description, fichier, created_at, updated_at, categories_id) values (43, 'mattis egestas metus', 6, null, 'Photo_plat.jpg', null, null, 4);
-insert into plats (id, nom, prix, description, fichier, created_at, updated_at, categories_id) values (44, 'mi nulla ac enim in', 7, 'libero ut massa volutpat convallis morbi odio odio elementum eu interdum eu', 'Photo_plat.jpg', null, null, 5);
-insert into plats (id, nom, prix, description, fichier, created_at, updated_at, categories_id) values (45, 'pede ullamcorper augue', 6, null, 'Photo_plat.jpg', null, null, 2);
-insert into plats (id, nom, prix, description, fichier, created_at, updated_at, categories_id) values (46, 'facilisi cras non velit nec', 16, 'augue vel accumsan tellus nisi eu orci mauris lacinia sapien quis libero', 'Photo_plat.jpg', null, null, 2);
-insert into plats (id, nom, prix, description, fichier, created_at, updated_at, categories_id) values (47, 'lacus at velit', 35, null, 'Photo_plat.jpg', null, null, 3);
-insert into plats (id, nom, prix, description, fichier, created_at, updated_at, categories_id) values (48, 'risus auctor sed', 11, null, 'Photo_plat.jpg', null, null, 2);
-insert into plats (id, nom, prix, description, fichier, created_at, updated_at, categories_id) values (49, 'lectus pellentesque at nulla', 16, 'magna vulputate luctus cum sociis natoque penatibus', 'Photo_plat.jpg', null, null, 4);
-insert into plats (id, nom, prix, description, fichier, created_at, updated_at, categories_id) values (50, 'in faucibus orci luctus et', 9, 'facilisi cras non velit nec nisi vulputate nonummy maecenas', 'Photo_plat.jpg', null, null, 1);
-insert into plats (id, nom, prix, description, fichier, created_at, updated_at, categories_id) values (51, 'at vulputate vitae nisl aenean', 20, 'posuere cubilia curae donec pharetra magna vestibulum aliquet', 'Photo_plat.jpg', null, null, 5);
-insert into plats (id, nom, prix, description, fichier, created_at, updated_at, categories_id) values (52, 'tempus vivamus in felis', 30, 'vestibulum sagittis sapien cum sociis natoque penatibus et', 'Photo_plat.jpg', null, null, 1);
-insert into plats (id, nom, prix, description, fichier, created_at, updated_at, categories_id) values (53, 'nullam sit amet turpis elementum', 25, 'nullam orci pede venenatis non sodales sed tincidunt eu felis fusce', 'Photo_plat.jpg', null, null, 3);
-insert into plats (id, nom, prix, description, fichier, created_at, updated_at, categories_id) values (54, 'nulla mollis molestie lorem', 12, 'convallis tortor risus dapibus augue vel accumsan', 'Photo_plat.jpg', null, null, 3);
-insert into plats (id, nom, prix, description, fichier, created_at, updated_at, categories_id) values (55, 'sapien ut nunc', 24, 'vel augue vestibulum ante ipsum primis in faucibus orci luctus et ultrices', 'Photo_plat.jpg', null, null, 2);
-insert into plats (id, nom, prix, description, fichier, created_at, updated_at, categories_id) values (56, 'tortor quis turpis sed', 3, null, 'Photo_plat.jpg', null, null, 4);
-insert into plats (id, nom, prix, description, fichier, created_at, updated_at, categories_id) values (57, 'nulla tellus in sagittis', 21, null, 'Photo_plat.jpg', null, null, 4);
-insert into plats (id, nom, prix, description, fichier, created_at, updated_at, categories_id) values (58, 'posuere cubilia curae donec', 12, 'aliquam augue quam sollicitudin vitae consectetuer eget rutrum at lorem integer tincidunt', 'Photo_plat.jpg', null, null, 1);
-insert into plats (id, nom, prix, description, fichier, created_at, updated_at, categories_id) values (59, 'mattis egestas metus aenean', 12, 'cum sociis natoque penatibus et magnis dis', 'Photo_plat.jpg', null, null, 1);
-insert into plats (id, nom, prix, description, fichier, created_at, updated_at, categories_id) values (60, 'pede lobortis ligula', 7, 'commodo placerat praesent blandit nam nulla integer pede justo lacinia eget tincidunt', 'Photo_plat.jpg', null, null, 5);
+-- Petit dejeuner
+
+insert into plats (id, nom, prix, description, fichier, created_at, updated_at, categories_id) values (1, 'Ndolé', 12, "Il s'agit d'un plat préparé à base d'une plante légumière dont les feuilles sont consommées vertes, mais aussi dans une moindre mesure séchées", 'Ndole_1.jpeg', null, null, 1);
+insert into plats (id, nom, prix, description, fichier, created_at, updated_at, categories_id) values (2, 'Poulet DG', 20, "Le poulet DG est l'une des spécialités camerounaises les plus connues. DG signifie Directeur Général, car le plat était initialement réservé à une élite.", 'Ndole_1.jpeg', null, null, 1);
+insert into plats (id, nom, prix, description, fichier, created_at, updated_at, categories_id) values (3, 'Poisson braisé', 13, "Il s'agit généralement d'un bar, d'un maquereau ou d'une sole, nappé d'une sauce djansan (une épice locale).", 'Ndole_1.jpeg', null, null, 1);
+insert into plats (id, nom, prix, description, fichier, created_at, updated_at, categories_id) values (4, 'Taro à la sauce jaune', 13, "Il se compose de taro pilé et d'une sauce dont la préparation s'avère complexe car elle contient de multiples ingrédients,.", 'Ndole_1.jpeg', null, null, 1);
+insert into plats (id, nom, prix, description, fichier, created_at, updated_at, categories_id) values (5, 'Kondre', 13, "C'est également aux Bamilékés que l'on doit ce mets,", 'Ndole_1.jpeg', null, null, 1);
+
+-- Enter
+
+insert into plats (id, nom, prix, description, fichier, created_at, updated_at, categories_id) values (15, "Salade sucrée d'avocat", 5, Null, 'soupe-jaune.jpg', null, null, 2);
+insert into plats (id, nom, prix, description, fichier, created_at, updated_at, categories_id) values (16, "Salade sucrée d'avocat", 5, Null, 'soupe-jaune.jpg', null, null, 2);
+insert into plats (id, nom, prix, description, fichier, created_at, updated_at, categories_id) values (17, 'Poulet mariné camerounais', 10, Null, 'soupe-jaune.jpg', null, null, 2);
+insert into plats (id, nom, prix, description, fichier, created_at, updated_at, categories_id) values (19, 'Purée de piments', 5, Null, 'soupe-jaune.jpg', null, null, 2);
+insert into plats (id, nom, prix, description, fichier, created_at, updated_at, categories_id) values (20, 'Pilé de pommes de terre', 5, Null, 'soupe-jaune.jpg', null, null, 2);
+
+-- Plats
+
+insert into plats (id, nom, prix, description, fichier, created_at, updated_at, categories_id) values (6, 'Eru', 20, "Le eru est un plat camerounais, à base de plantes potagères,", 'Poulet-DG.jpg', null, null, 3);
+insert into plats (id, nom, prix, description, fichier, created_at, updated_at, categories_id) values (7, 'Nkôno Ngond', 20, "est un mets traditionnel de la cuisine camerounaise préparé, ", 'Poulet-DG.jpg', null, null, 3);
+insert into plats (id, nom, prix, description, fichier, created_at, updated_at, categories_id) values (8, 'Corn Tchap', 22, "Voilà une belle recette camerounaise qui fera voyager vos papilles ! Le Corn tchap est une succulente préparation à base de haricots rouges, de poisson fumé et de maïs. ", 'Poulet-DG.jpg', null, null, 3);
+insert into plats (id, nom, prix, description, fichier, created_at, updated_at, categories_id) values (9, 'Folong', 25, "Le bitekuteku (RDC) ou folong (Cameroun) est un légume qui ressemble beaucoup aux épinards. Vertus: Le folong est une plante herbacée riche en lysine très important pour la santé humaine.", 'Poulet-DG.jpg', null, null, 3);
+insert into plats (id, nom, prix, description, fichier, created_at, updated_at, categories_id) values (10, 'koki', 25, "Le koki est une papillote végétale à base de pâte culinaire de tubercules (manioc, patate), de légumineuses (pois de terre, cornille) et de céréales (maïs, surtout frais).", 'Poulet-DG.jpg', null, null, 3);
+
+-- Dessert
+
+insert into plats (id, nom, prix, description, fichier, created_at, updated_at, categories_id) values (21, 'Kossam', 10, Null, 'Photo-Dessert.jpg', null, null, 4);
+insert into plats (id, nom, prix, description, fichier, created_at, updated_at, categories_id) values (22, 'Beignet de banane', 10, Null, 'Photo-Dessert.jpg', null, null, 4);
+insert into plats (id, nom, prix, description, fichier, created_at, updated_at, categories_id) values (23, "Flan pâtissier à l'ananas", 8, Null, 'Photo-Dessert.jpg', null, null, 4);
+insert into plats (id, nom, prix, description, fichier, created_at, updated_at, categories_id) values (24, 'Beignet sucré au blé entier', 8, Null, 'Photo-Dessert.jpg', null, null, 4);
+insert into plats (id, nom, prix, description, fichier, created_at, updated_at, categories_id) values (25, 'ngol ngol', 10, Null, 'Photo-Dessert.jpg', null, null, 4);
+
+-- Boisson
+
+insert into plats (id, nom, prix, description, fichier, created_at, updated_at, categories_id) values (26, 'Nectar ou jus de gingembre', 8, Null, 'coktail.jpg', null, null, 5);
+insert into plats (id, nom, prix, description, fichier, created_at, updated_at, categories_id) values (27, 'Beaufort', 10, Null, 'jus.jpg', null, null, 5);
+insert into plats (id, nom, prix, description, fichier, created_at, updated_at, categories_id) values (28, ' Booster Cider', 5, Null, 'jus.jpg', null, null, 5);
+insert into plats (id, nom, prix, description, fichier, created_at, updated_at, categories_id) values (29, ' XXL', 10, Null, 'jus.jpg', null, null, 5);
+insert into plats (id, nom, prix, description, fichier, created_at, updated_at, categories_id) values (30, ' Mojito', 10, Null, 'Cocktail-mojito-1.jpg', null, null, 5);
