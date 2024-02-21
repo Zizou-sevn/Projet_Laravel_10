@@ -425,6 +425,11 @@ body {
     color: #ffffff;
 }
 
+.invalid-feedback {
+    font-family: sans-serif;
+    color: red;
+}
+
 /* Rservation-Store */
 
 .barre_43 {

@@ -70,7 +70,7 @@ insert into Etiquettes_plats (Etiquettes_id, plats_id) values (14, 19);
 insert into Etiquettes_plats (Etiquettes_id, plats_id) values (10, 19);
 insert into Etiquettes_plats (Etiquettes_id, plats_id) values (15, 19);
 
-
+    
 insert into Etiquettes_plats (Etiquettes_id, plats_id) values (2, 20);
 insert into Etiquettes_plats (Etiquettes_id, plats_id) values (14, 20);
 
